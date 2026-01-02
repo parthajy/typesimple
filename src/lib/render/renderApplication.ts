@@ -63,7 +63,7 @@ export function renderApplication(answers: any, theme: ThemeTokens, layoutId: st
   const comp = esc(a.comp || "");
   const references = toBullets(a.references);
 
-  const footerNote = esc(a.footer_note || "TypeSimple · Free (watermarked)");
+  const footerNote = esc(a.footer_note || "TypeSimple · Free");
 
   const docOpen = `
     <div style="font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; color:${text};">

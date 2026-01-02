@@ -82,7 +82,7 @@ export function renderStatusCard(answers: Answers, theme: ThemeTokens, layoutId:
   const next = answers.next;
 
   const cta = esc(answers.cta || "View details");
-  const footerNote = esc(answers.footer_note || "TypeSimple · Free (watermarked)");
+  const footerNote = esc(answers.footer_note || "TypeSimple · Free");
 
   // Shared “card canvas”
   const outer = (inner: string) => `

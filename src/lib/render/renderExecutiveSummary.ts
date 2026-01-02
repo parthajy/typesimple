@@ -57,7 +57,7 @@ export function renderExecutiveSummary(answers: any, theme: ThemeTokens, layoutI
   const s3 = statVal(a, "stat_3");
 
   const contactEmail = esc(a.contact_email || "");
-  const footerNote = esc(a.footer_note || "TypeSimple · Free (watermarked)");
+  const footerNote = esc(a.footer_note || "TypeSimple · Free");
 
   // Shared “doc” wrapper
   const docOpen = `

@@ -73,7 +73,7 @@ export function renderProjectReport(answers: any, theme: ThemeTokens, layoutId: 
   const nextSteps = toBullets(a.next_steps);
 
   const stakeholders = esc(a.stakeholders || "");
-  const footerNote = esc(a.footer_note || "TypeSimple · Free (watermarked)");
+  const footerNote = esc(a.footer_note || "TypeSimple · Free");
 
   // ---------------------------
   // Layout A: Multi-page doc (cover + body)

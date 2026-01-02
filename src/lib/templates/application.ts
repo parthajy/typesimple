@@ -63,6 +63,6 @@ export const ApplicationTemplate: ArtifactTemplate = {
 
     { kind: "divider", id: "d5", label: "—" },
 
-    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free (watermarked)" },
+    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free" },
   ],
 };

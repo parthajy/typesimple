@@ -266,7 +266,7 @@ if (layoutId === "concept_a") {
 
           <div style="margin-top:18px; border-top:1px solid ${border}; padding-top:16px; display:flex; justify-content:space-between; gap:14px;">
             <div style="font-size:12px; color:${muted};">
-              ${footerNote || "TypeSimple · Free (watermarked)"}
+              ${footerNote || "TypeSimple · Free"}
             </div>
             <div style="font-size:12px; color:${muted}; font-weight:700;">
               ${contactEmail ? `${contactName ? `${contactName} · ` : ""}${contactEmail}` : ""}

@@ -59,6 +59,6 @@ export const ExecutiveSummaryTemplate: ArtifactTemplate = {
     { kind: "divider", id: "d4", label: "—" },
 
     { kind: "text", id: "contact_email", label: "Contact email", placeholder: "hello@company.com" },
-    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free (watermarked)" },
+    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free" },
   ],
 };

@@ -60,6 +60,6 @@ export const ProjectReportTemplate: ArtifactTemplate = {
     { kind: "divider", id: "d4", label: "—" },
 
     { kind: "text", id: "stakeholders", label: "Stakeholders", placeholder: "Names / functions (one line)" },
-    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free (watermarked)" },
+    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free" },
   ],
 };

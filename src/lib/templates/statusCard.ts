@@ -63,6 +63,6 @@ export const StatusCardTemplate: ArtifactTemplate = {
     { kind: "divider", id: "d3", label: "—" },
 
     { kind: "text", id: "cta", label: "CTA button text", placeholder: "e.g., View plan / Book review call" },
-    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free (watermarked)" },
+    { kind: "text", id: "footer_note", label: "Footer note", placeholder: "TypeSimple · Free" },
   ],
 };
